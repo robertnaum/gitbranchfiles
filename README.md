@@ -1,5 +1,5 @@
-# gitcommitfiles README
-VS Code extension "gitcommitfiles". 
+# gitbranchfiles README
+VS Code extension "gitbranchfiles". 
 
 ## Features
 
