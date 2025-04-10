@@ -1,7 +1,7 @@
 {
-  "name": "gitcommitfiles",
-  "displayName": "GitCommitFiles",
-  "description": "select all files in a commit",
+  "name": "gitbranchfiles",
+  "displayName": "GitBranchFiles",
+  "description": "select all files in a branch",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.99.0"
@@ -14,18 +14,18 @@
   "contributes": {
     "commands": [
       {
-        "command": "gitcommitfiles.helloWorld",
+        "command": "gitbranchfiles.helloWorld",
         "title": "Hello World"
       },
       {
-        "command": "gitcommitfiles.selectCommitFiles",
-        "title": "List Commit Files"
+        "command": "gitbranchfiles.selectBranchFiles",
+        "title": "Git Branch Files"
       }
     ],
     "keybindings": [
       {
-        "command": "gitcommitfiles.selectCommitFiles",
-        "key": "ctrl+alt+c",
+        "command": "gitbranchfiles.selectBranchFiles",
+        "key": "ctrl+alt+b",
         "when": "editorTextFocus"
       }
     ]
