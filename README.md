@@ -11,7 +11,7 @@ Visual Studio Code
 
 ### 1.0.0
 
-Initial release of gitcommitfiles
+Initial release of gitbranchfiles
 
 ## Following extension guidelines
 
